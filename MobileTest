@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+    }
+
+    #Background {
+      width: 100%;
+      height: auto;
+    }
+  </style>
+</head>
+<body>
+
+<video id="Background" autoplay loop muted>
+  <source src="Media/A.mp4" type="video/mp4">
+  <!-- Fallback content for browsers that do not support the video format -->
+</video>
+
+</body>
+</html>
